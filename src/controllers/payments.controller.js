@@ -8,7 +8,9 @@ const {
   PAYPAL_API_SECRET,
 } = require('../config/config');
 const Usersubs = require('../models/User.models');
-console.log(PAYPAL_API_CLIENT);
+console.log(`client: ${PAYPAL_API_CLIENT}`);
+console.log(`secret: ${PAYPAL_API_SECRET}`);
+console.log(`host: ${HOST}`);
 
 const prueba = (req, res) => {
   res.send('llega');
